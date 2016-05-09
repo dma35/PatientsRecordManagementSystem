@@ -1,5 +1,5 @@
-use PatientReg;
-drop table if exists login;
+use patient_record_system;
+/*drop table if exists login;*/
 create table login
 (
   login INT(11) primary key Auto_Increment,

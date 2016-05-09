@@ -1,7 +1,7 @@
-Drop database if exists patient_record_system;
-create database patient_record_system;
-use patient_record_system;
-/*drop table if exists `PatientsDetails`;*/
+/*Drop database if exists PatientReg;
+create database PatientReg;
+use PatientReg;*/
+drop table if exists `PatientsDetails`;
 create table `PatientsDetails` (
   patientID int(10) primary key not null auto_increment,
   fname varchar(255),
